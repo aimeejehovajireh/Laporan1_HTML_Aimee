@@ -1,0 +1,99 @@
+/* Umum */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #124ba5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Tombol Next Page (di luar border biodata) */
+.next-btn {
+  position: absolute;
+  top: 60px;
+  right: 350px;
+  padding: 8px 16px;
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0; /* sudut tajam */
+}
+
+.next-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Foto Profil */
+header .foto-profil img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid black;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+}
+
+/* Kotak biodata */
+.container {
+  background-color: #ffffff;
+  border: 4px solid black;
+  border-radius: 0; /* tajam, tidak melengkung */
+  width: 70%;
+  max-width: 750px;
+  padding: 25px 35px;
+  margin-top: 25px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Teks dalam container */
+.container p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.judul {
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Kotak PDF */
+.pdf-container {
+  width: 100%;
+  height: 500px;
+  border: 2px solid black;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.pdf-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Gambar ilustrasi */
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.img-container img {
+  width: 80%;
+  max-width: 700px;
+  border: 2px solid black;
+  border-radius: 0; /* tajam */
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.25);
+}
