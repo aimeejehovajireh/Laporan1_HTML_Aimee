@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artikel Laporan HTML</title>
+
+  <!-- Font yang sama agar konsisten -->
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+
+  <!-- Tombol kembali ke halaman utama -->
+  <button class="next-btn" onclick="window.location.href='index.html'">← Previous Page</button>
+
+  <!-- Kontainer utama artikel -->
+  <div class="container">
+
+    <p>
+      Pada halaman ini ditampilkan hasil laporan teknis dan dokumentasi dari praktikum pembuatan halaman HTML
+      <b>Profil Diri</b>. Laporan ini berisi struktur folder, tampilan kode, serta hasil akhir dari halaman yang telah dibuat.
+    </p>
+
+    <h3>📘 Tampilan PDF Teknis Laporan</h3>
+    <p>
+      Berikut adalah hasil laporan teknis dalam bentuk file PDF yang disematkan menggunakan elemen <code>&lt;iframe&gt;</code>.
+    </p>
+
+    <!-- Embed PDF -->
+    <div class="pdf-container">
+      <iframe src="https://www.academia.edu/31526687/BAKTERI" frameborder="0"></iframe>
+    </div>
+
+    <h3>📄 Penjelasan Kode dan Tampilan</h3>
+    <p>
+      Pada halaman utama (<b>index.html</b>), digunakan elemen-elemen seperti <code>&lt;header&gt;</code>, 
+      <code>&lt;img&gt;</code>, dan <code>&lt;div&gt;</code> dengan class <b>container</b> untuk membuat struktur profil.
+      CSS diatur agar tampilan terlihat rapi, dengan latar belakang biru lembut, foto profil berbentuk bulat, serta border hitam tajam pada setiap elemen.
+    </p>
+
+    <p>
+      Tombol <b>Next Page</b> diletakkan di pojok kanan atas menggunakan properti 
+      <code>position: absolute;</code> agar tidak menutupi area konten. 
+      Semua font menggunakan <b>Segoe UI</b> agar terlihat bersih dan profesional, serta mudah dibaca di berbagai perangkat.
+    </p>
+
+    <h3>📷 Ilustrasi Tampilan Halaman</h3>
+    <p>Berikut contoh tampilan dari hasil halaman profil yang telah dibuat:</p>
+    <div class="img-container">
+      <img src="asset/img/foto_index.png" alt="Tampilan Halaman Index">
+    </div>
+
+  </div>
+</body>
+</html>
